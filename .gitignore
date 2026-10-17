@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Machine learning datasets and model files
+cifar-10-batches-py/
+*.h5
+*.hdf5
+*.keras
+*.weights
+
+# Environment and secrets
+.env
+.env.*
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local notebook backups
+notebooks_backup/
