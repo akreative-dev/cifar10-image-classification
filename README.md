@@ -12,6 +12,22 @@ This project investigates deep-learning approaches to classifying colour images 
 - **Model experimentation:** Comparing configurations and examining validation performance.
 - **MobileNetV2:** Exploring a transfer-learning approach using a pre-trained image-classification architecture.
 
+## Model Experiments and Results
+
+I evaluated seven CIFAR-10 classification experiments, exploring changes to CNN architecture, dropout, L2 regularisation, data augmentation, and transfer learning with MobileNetV2.
+
+![CIFAR-10 model accuracy comparison](results/figures/model-accuracy-comparison.png)
+
+### Key Findings
+
+- **MobileNetV2 achieved the highest reported accuracy (76%)**, demonstrating the potential of transfer learning for image classification under limited computational resources.
+- **Dropout reached 75% accuracy**, making it the strongest of the experiments using a modified CNN architecture.
+- **L2 regularisation and data augmentation underperformed** in these experiments. The results highlighted the importance of tuning regularisation and augmentation strategies to the model and dataset.
+- Increasing model depth produced modest improvements, while the pre-trained MobileNetV2 offered the strongest overall result.
+
+*Note: The accuracy figures above follow the detailed results section of the project report. The report's summary table gives a different baseline result, so the baseline figure should be treated with that discrepancy in mind.*
+
+
 ## Repository Structure
 
 ```text
